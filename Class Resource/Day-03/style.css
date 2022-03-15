@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 20px 0;
+}
+.bg-1{
+	padding: 30px 20%;
+	text-align: center;
+	color: white;
+	background-color: #23232e;
+	overflow: hidden;
+}
+.bg-2{
+	padding: 20px 20%;
+	text-align: center;
+	color: #888a8b;
+	background: url("img/back.png");
+	overflow: hidden;
+}
+
+/*this is header area*/
+.header img{
+	width: 10%;
+	padding: 20px;
+}
+.header h2{
+	padding-top:40px ;
+}
+.header p{
+	font-size: 11px;
+	margin-bottom:90px ;
+}
+.header a{
+	border: 1px solid white;
+	color: white;
+	text-decoration: none;
+	padding: 8px 10px;
+	border-radius: 50%;
+}
+
+/*What i do area*/
+.what-i-do .txt{
+	font-size: 19px;
+	padding: 0 50px;
+}
+.what-i-do .col{
+	width: 29.33%;
+	margin: 2%;
+	float: left;
+	text-align: justify;
+}
+.what-i-do .col h4{
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+/*this is my work area*/
+.mywork .menu{
+	margin-left: 60px;
+}
+.mywork .menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.mywork .menu ul li{
+	float: left;
+	padding: 0 20px;
+}
+.mywork .menu ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: capitalize;
+	padding-bottom: 3px;
+}
+.mywork .menu ul li a:hover,
+.mywork .menu ul li .active{
+	border-bottom: 2px solid #7b77c9;
+}
+
+.mywork .col,
+.photography .col{
+	width: 29.33%;
+	margin: 2%;
+	float: left;
+	text-align: justify;
+	text-align: center;
+}
+.mywork .col img,
+.photography .col img{
+	width: 100%;
+}
+button{
+	background-color: #7b77c9;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: white;
+	font-size: 13px;
+}
+
+/*this is subscribe area*/
+.subscribe button{
+	border-radius: 0 5px 5px 0;
+}
+.subscribe input{
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px 0 0 5px;
+	font-size: 13px;
+	margin-right: -4px;
+}
+
+/*footer area*/
+
+.footer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 180px;
+}
+.footer ul li{
+	float: left;
+	padding: 0 20px;
+}
+.footer ul li a{
+	font-size: 17px;
+	color: #888a8b;
+}
+
+
+@media all and (max-width: 500px){
+	.header img{
+		width: 30%;
+		padding-bottom: 0;
+	}
+	.bg-1,
+	.bg-2{
+		padding: 20px 10%;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.what-i-do .txt{
+		padding: 0 10px;
+	}
+	.what-i-do .col{
+		float: none;
+		width: 100%;
+	}
+	.mywork .col{
+		float: none;
+		width: 100%;
+	}
+	.photography .col{
+		float: none;
+		width: 100%;
+	}
+}

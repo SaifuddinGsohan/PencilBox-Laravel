@@ -1,0 +1,30 @@
+/* this is header section*/
+.header{
+	background-color: red;
+	height: 150px;
+}
+
+/* this is main section*/
+.main{
+	background-color: green;
+	height: 700px;
+}
+.col{
+	height: 30%;
+	width: 29.33%;
+	background-color: yellow;
+	float: left;
+	margin: 1% 2%;
+}
+
+/* this is Footer section*/
+.footer{
+	background-color: red;
+	height: 50px;
+}
+
+.txt{
+	font-size: 20px;
+	color: white;
+	text-decoration: underline;
+}

@@ -75,7 +75,6 @@ hr{
     padding: 1rem;
     margin-left: 6rem;
     
-    width: 40%;
 }
 .menu .right{
     float: right;
@@ -155,6 +154,7 @@ hr{
     display: flex;
     height: auto;
     padding-bottom: 1rem;
+    flex-flow: column;
 } 
 .s-crd .social i{
     color: white;
@@ -172,7 +172,7 @@ hr{
     -ms-transition: .8s;
     -o-transition: .8s;
 }
-.s-crd .social i:hover{
+.s-crd :hover .social i{
      color: black;
      background-color: white;
 }
@@ -183,7 +183,23 @@ hr{
     width: 60%;
     margin: 0 2%;
 }
-
+.about-cntnr .right *{
+    margin-bottom: 1rem;
+}
+.about-cntnr .right h4{
+    font-size: 22px;
+}
+.about-cntnr .right .btn{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    
+}
+.about-cntnr .right .btn .icon{
+    padding-top: 10px;
+    
+}
 /* about video */
 .about-video{
     background-image: url("/Task 2/img/aboutUs.png");
@@ -192,9 +208,6 @@ hr{
 }
 
 /* contnt  */
-.contnt{
-    
-}
 .contnt .item{
     width: 33.33%;
     float: left;
@@ -226,6 +239,38 @@ hr{
     width: 46%;
     padding: 2%;
     overflow: hidden;
+}
+
+/*pb*/
+.pb-out{
+    background-color: rgba(0,0,0,.8);
+    height: 16px;
+    width: 100%;
+    border-radius:10px;
+    font-size: 14px;
+    color: rgba(255,255,255,.8);
+    text-align: right;
+    position: relative;
+    margin: 10px;
+}
+.pb-out .pb-in{
+    background-color: rgb(255,0,0,.8);
+    height: 10px;
+    width: 50%;
+    left: 3px;
+    bottom: 3px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.pi-1{
+    width: 50%;
+}
+.pi-2{
+    width: 50%;
+}
+.pi-3{
+    width: 50%;
 }
 
 /* client */
@@ -281,9 +326,12 @@ hr{
     height: 190px;
     
 }
-.portfolio .list .item .back-img::after{
+.portfolio .list .item:hover .back-img::after{
     background-color: rgba(255, 20, 50, 0.5);
 }
+/*.portfolio .list .item .back-img::after{
+    background-color: rgba(255, 20, 50, 0.5);
+}*/
 .portfolio .list .item .back-img .icon{
     color: #fff;
     font-size: 20px;
@@ -298,6 +346,15 @@ hr{
     padding: 1%;
     float: left;
 }
+.team .s-crd .img .social{
+    background-color: rgba(255, 50, 5, .8);
+    visibility: hidden;
+}
+.team .s-crd:hover .img .social{
+    visibility: visible;
+}
+
+
 
 /* Testimonial */
 .Testimonial .back-img{
@@ -438,7 +495,7 @@ margin: 2.2rem;
 }
 
 
-/* sohan left-right */
+/* left-right */
 .s-lr{
     overflow: hidden;
     width: 100%;
@@ -449,3 +506,11 @@ margin: 2.2rem;
 .s-lr .r{
     float: right;
 }
+
+
+/*nth-child*/
+.p p:nth-child(3n+1){
+    background-color: rgba(255,255,255,.8);
+}
+
+

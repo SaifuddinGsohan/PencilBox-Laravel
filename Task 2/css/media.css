@@ -1,0 +1,29 @@
+@media all and (max-width: 780px){
+    .cntnr{
+        padding: 0 5%;
+    }
+    
+    .contnt .item{
+        width: 100%;
+        float: none;
+    
+    }
+    .contnt .item .icon{
+        font-size: 50px;
+    }
+    .portfolio .list .item{
+    width: 98%;
+}
+.portfolio .list .item .back-img{
+    height: 550px;
+    
+}
+.team .s-crd{
+    width: 98%;
+}
+.card{
+    width: 98%;
+}
+
+
+}

@@ -6,7 +6,6 @@
     /* font-family: 'Montserrat', sans-serif; */
 }
 .cntnr{
-    padding: 0 15%;
     overflow: hidden;
 }
 .tb-r{
@@ -56,7 +55,7 @@ hr{
     -o-border-radius: 50%;
 
     position: absolute;
-    top: 25px;
+    top: 35px;
     left: 49.49%;
 }
 
@@ -84,6 +83,7 @@ hr{
      display: flex;
      align-items: center;
      padding: 2rem 2rem;
+     flex-flow: row;
 }
 .menu .right ul li a{
     text-decoration: none;
@@ -129,11 +129,7 @@ hr{
     display: flex;
 }
 
-/* left */
-.about-cntnr .left {
-    width: 30%;
-    margin: 0 3%;
-} 
+
 /* left img  */
 .s-crd .img img{
     width: 100%;
@@ -160,7 +156,7 @@ hr{
     color: white;
     background-color: rgba(0, 0, 0, .6);
     padding: 1rem;
-    margin: 0 1rem ;
+
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -179,10 +175,7 @@ hr{
 
 
 /* right  */
-.about-cntnr .right{
-    width: 60%;
-    margin: 0 2%;
-}
+
 .about-cntnr .right *{
     margin-bottom: 1rem;
 }
@@ -206,12 +199,13 @@ hr{
     height: 200px;
     color: white;
 }
+.about-video .icon{
+    font-size: 50px;
+}
+
 
 /* contnt  */
-.contnt .item{
-    width: 33.33%;
-    float: left;
-}
+
 .contnt .item .icon{
     font-size: 30px;
 }
@@ -229,25 +223,15 @@ hr{
 .skills{
     background-color: rgba(0, 0, 0, .3);
 }
-.skills .left{
-    float: left;
-    width: 46%;
-    padding: 2%;
-    overflow: hidden;
-}
-.skills .right{
-    width: 46%;
-    padding: 2%;
-    overflow: hidden;
-}
+
 
 /*pb*/
 .pb-out{
     background-color: rgba(0,0,0,.8);
-    height: 16px;
+    height: 20px;
     width: 100%;
     border-radius:10px;
-    font-size: 14px;
+    font-size: 10px;
     color: rgba(255,255,255,.8);
     text-align: right;
     position: relative;
@@ -255,12 +239,16 @@ hr{
 }
 .pb-out .pb-in{
     background-color: rgb(255,0,0,.8);
-    height: 10px;
+    height: 20px;
     width: 50%;
-    left: 3px;
-    bottom: 3px;
-    border-radius: 5px;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 8px;
     position: absolute;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 
 .pi-1{
@@ -314,16 +302,13 @@ hr{
     color: black;
     font-weight: bold;
 }
-.portfolio .list .item{
-    padding: 1%;
-    width: 31.33%;
-}
+
 .portfolio .list .item img{
     width: 100%;
 }
 .portfolio .list .item .back-img{
     background-image: url("/Task 2/img/portfolio.png");
-    height: 190px;
+    height: 250px;
     
 }
 .portfolio .list .item:hover .back-img::after{
@@ -342,8 +327,7 @@ hr{
     background-color: rgba(0, 0, 0, .2);
 }
 .team .s-crd{
-    width: 23%;
-    padding: 1%;
+
     float: left;
 }
 .team .s-crd .img .social{
@@ -380,8 +364,6 @@ hr{
 
 /* card */
 .card{
-    margin: 2%;
-    width: 29.33%;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
 }
 .card .img img{

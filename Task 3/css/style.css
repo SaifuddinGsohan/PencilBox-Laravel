@@ -4,22 +4,98 @@
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
+.bg-c{
+    background-color: #f9f8f3;
+}
+.text-cl{
+    color: #bda34c;
+}
+.text-cd{
+    color: #916c02;
+}
 
-
-
+.bg-c2{
+    background-color: #f9edd5;
+}
+.bg-c3{
+    background-color: #bea44d;
+}
 
     /* <!-- header  --> */
-    
-    /* <!-- home  --> */
-    
-    /* <!-- Ideas --> */
-    
-    /* <!-- work  --> */
-    
-    /* <!-- post --> */
-    
-    /* <!-- touch  --> */
+.nav-item{
+    position: relative;
+}
+.nav-item :hover .nav-link {
+    color: #916c02;
+    content: "";
+    clear: both;
+    display: block;
 
-    /* <!-- about --> */
+    height: 2px;
+    width: 100%;
+    background-color: #fe320a;
 
-    /* <!-- Footer --> */
+    position: absolute;
+    top: 35px;
+    left: 49.49%;
+}
+    
+/* <!-- home  --> */
+.home-pic{
+    position: relative;
+    height: 820px;
+}
+.home-pic-bg{
+    height: 820px;
+    opacity: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.h1{
+    font-size: 70px;
+    text-align: left;
+    padding-bottom: 5rem;
+}
+.home-activti .icon{
+    font-size: 40px;
+}
+.home-activti h6{
+    font-size: 30px;
+}
+.home-slide-btn {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* <!-- Ideas --> */
+.ideas .icon{
+    font-size: 40px;
+}
+
+/* <!-- work  --> */
+.images-slit{
+    position: relative;
+}
+.btn-p, .btn-n{
+    background-color: #916c02;
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    top: 50%;
+}
+.btn-p{
+    left: -5%;
+}
+.btn-n{
+    right: -5%;
+}
+
+/* <!-- post --> */
+    
+/* <!-- touch  --> */
+
+/* <!-- about --> */
+
+/* <!-- Footer --> */
